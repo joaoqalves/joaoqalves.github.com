@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>continuous deployment on Continuous Hipsterism</title>
-    <link>https://blog.joaoqalves.net/tags/continuous-deployment/</link>
+    <link>https://joaoqalves.github.io/tags/continuous-deployment/</link>
     <description>Recent content in continuous deployment on Continuous Hipsterism</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Oct 2015 21:25:07 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.joaoqalves.net/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joaoqalves.github.io/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Towards Continuous Deployment</title>
-      <link>https://blog.joaoqalves.net/post/2015/10/14/Towards-Continuous-Deployment/</link>
+      <link>https://joaoqalves.github.io/post/2015/10/14/Towards-Continuous-Deployment/</link>
       <pubDate>Wed, 14 Oct 2015 21:25:07 +0000</pubDate>
       
-      <guid>https://blog.joaoqalves.net/post/2015/10/14/Towards-Continuous-Deployment/</guid>
+      <guid>https://joaoqalves.github.io/post/2015/10/14/Towards-Continuous-Deployment/</guid>
       <description>Hi! This is my first post in this blog. Although it&amp;rsquo;s meant to be a tech blog, this post is the first part of a series where I mix software engineering, its practices and methodologies with a business background and why do software companies need to move towards continuous deployment. Stay tunned!
 Background and Motivation The world has changed a lot in the last 100 years. But if we stop to think about it, did it change more from 1900 until 1970 or from 1970 until now?</description>
     </item>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/about/</loc>
+    <lastmod>2019-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/</loc>
+    <lastmod>2019-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/post/2016/12/17/About-code-reviews/</loc>
+    <lastmod>2016-12-17T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/categories/</loc>
+    <lastmod>2016-12-17T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/tags/code-review/</loc>
+    <lastmod>2016-12-17T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/post/</loc>
+    <lastmod>2016-12-17T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/categories/software-craftsmanship/</loc>
+    <lastmod>2016-12-17T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/tags/</loc>
+    <lastmod>2016-12-17T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/categories/business/</loc>
+    <lastmod>2016-02-23T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/tags/software-engineering/</loc>
+    <lastmod>2016-02-23T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/tags/strategy/</loc>
+    <lastmod>2016-02-23T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/post/2016/02/23/The-casino-paradox/</loc>
+    <lastmod>2016-02-23T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/categories/engineering/</loc>
+    <lastmod>2016-02-20T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/tags/libraries/</loc>
+    <lastmod>2016-02-20T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/post/2016/02/20/There-are-no-free-meals/</loc>
+    <lastmod>2016-02-20T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/tags/continuous-deployment/</loc>
+    <lastmod>2015-10-14T21:25:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/tags/continuous-integration/</loc>
+    <lastmod>2015-10-14T21:25:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/tags/methodology/</loc>
+    <lastmod>2015-10-14T21:25:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaoqalves.net/post/2015/10/14/Towards-Continuous-Deployment/</loc>
+    <lastmod>2015-10-14T21:25:07+00:00</lastmod>
+  </url>
+  
+</urlset>

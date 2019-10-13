@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Continuous Hipsterism</title>
+    <link>https://blog.joaoqalves.net/categories/</link>
+    <description>Recent content in Categories on Continuous Hipsterism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Dec 2016 10:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.joaoqalves.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>software craftsmanship</title>
+      <link>https://blog.joaoqalves.net/categories/software-craftsmanship/</link>
+      <pubDate>Sat, 17 Dec 2016 10:00:00 +0000</pubDate>
+      
+      <guid>https://blog.joaoqalves.net/categories/software-craftsmanship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>business</title>
+      <link>https://blog.joaoqalves.net/categories/business/</link>
+      <pubDate>Tue, 23 Feb 2016 20:00:00 +0000</pubDate>
+      
+      <guid>https://blog.joaoqalves.net/categories/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>engineering</title>
+      <link>https://blog.joaoqalves.net/categories/engineering/</link>
+      <pubDate>Sat, 20 Feb 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://blog.joaoqalves.net/categories/engineering/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

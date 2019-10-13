@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>There are no free meals - Continuous Hipsterism</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="There are no free meals" />
+<meta property="og:description" content="Bob: &ldquo;Hey, what will we use to communicate with X in this project?&rdquo;
+Ted: &ldquo;We&rsquo;re using library Y, of course! 5k stars at Github. Looks solid!&rdquo;
+(5 months later&hellip;)
+Bob: &ldquo;Ted, we have a problem. We need to update X and library Y does not have support for it.&rdquo;
+Ted: &ldquo;Hmmm&hellip; We could just monkey-patch Y and then create our own in-house version. Problem solved!&rdquo;
+(and then it begins&hellip;)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.joaoqalves.net/post/2016/02/20/There-are-no-free-meals/" />
+<meta property="article:published_time" content="2016-02-20T19:00:00+00:00" />
+<meta property="article:modified_time" content="2016-02-20T19:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="There are no free meals"/>
+<meta name="twitter:description" content="Bob: &ldquo;Hey, what will we use to communicate with X in this project?&rdquo;
+Ted: &ldquo;We&rsquo;re using library Y, of course! 5k stars at Github. Looks solid!&rdquo;
+(5 months later&hellip;)
+Bob: &ldquo;Ted, we have a problem. We need to update X and library Y does not have support for it.&rdquo;
+Ted: &ldquo;Hmmm&hellip; We could just monkey-patch Y and then create our own in-house version. Problem solved!&rdquo;
+(and then it begins&hellip;)"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://blog.joaoqalves.netcss/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://blog.joaoqalves.netcss/main.css" /><script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script><script src="https://blog.joaoqalves.netjs/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<h1 class="site-title">Continuous Hipsterism</h1>
+	<div class="site-description"><h2>Software Engineering, Leadership, Management and more</h2><nav class="nav social">
+			<ul class="flat"><a href="https://twitter.com/joaoqalves" title="Twitter"><i data-feather="twitter"></i></a><a href="https://github.com/joaoqalves" title="Github"><i data-feather="github"></i></a><a href="https://linkedin.com/in/joaoqalves" title="LinkedIn"><i data-feather="linkedin"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">home</a>
+			</li>
+			
+			<li>
+				<a href="/about">about</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">There are no free meals</h1>
+			<div class="meta">Posted at &mdash; Feb 20, 2016</div>
+		</div>
+
+		<div class="markdown">
+			
+
+<p><strong>Bob</strong>: &ldquo;Hey, what will we use to communicate with <code>X</code> in this project?&rdquo;</p>
+
+<p><strong>Ted</strong>: &ldquo;We&rsquo;re using library <code>Y</code>, of course! 5k stars at Github. Looks solid!&rdquo;</p>
+
+<p>(<em>5 months later&hellip;</em>)</p>
+
+<p><strong>Bob</strong>: &ldquo;Ted, we have a problem. We need to update <code>X</code> and library <code>Y</code> does not have support for it.&rdquo;</p>
+
+<p><strong>Ted</strong>: &ldquo;Hmmm&hellip; We could just <em>monkey-patch</em> <code>Y</code> and then create our own in-house version. Problem solved!&rdquo;</p>
+
+<p>(<em>and then it begins&hellip;</em>)</p>
+
+<p>Dear CTO/VP of Engineering / Head of Development, please do not allow your team to do these kind of things.
+They are bad. They are bad for your software, for software, in general, and they will hurt your company,
+sooner or later. Why? You may think that this is the quickest way to solve the above stated problem, but let&rsquo;s
+talk about what could happen:</p>
+
+<ul>
+<li><code>X</code> changed so much that your patch will be more like an in-house library rewriting</li>
+<li>You break <code>Y</code> in an unexpected way, because you were in such a hassle that you did not pass
+the tests nor write new ones for the function that was missing</li>
+<li>You end-up with a mixture of library <code>Y</code> and your own code, because <code>Y</code> was missing a small
+feature</li>
+<li>You end-up with a <code>O(n^2)</code> implementation of the feature you needed, because the change was
+so small that the intern could just do it and create the binary himself</li>
+</ul>
+
+<p>All of these can be heavily mitigated, if not totally, if you said to your team: &ldquo;<em>Go to Github,
+clone that project, create a branch, make a pull request and get your code reviewed</em>. See?
+Seems easy, right? So why don&rsquo;t you do it? Because you think that is quickest to do the
+&ldquo;dirty quick-life-saver fix&rdquo;, but down the road things can be much worse. Remember that guy
+that wrote the <em>monkey-patch</em>? Yeah, he&rsquo;s working for another company now. And, of course,
+the library that your team patched now cannot be updated and take advantage of the new
+features that were implemented. Because, now, your code is entangled with <code>n+1</code>
+<em>monkey-patches</em> to that same library. Yeah, that sucks. So, please, stop doing it.</p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>Apart from the technical debt argument - hey, technical debt is as bad as the financial one -
+you probably owe the community. Your company was only allowed to bootstrap and to quickly
+develop the first features because you built it upon someone else&rsquo;s work. You found a bug?
+You think you can improve it? The current maintainers do not have that much time and did not
+implement the feature you need? Contribute back. Go to the goddamn git repository, fork it,
+code it, test it and make a pull request. At the end, everyone will be happier. You&rsquo;ll not
+end-up with your own in-house version, you will (probably) not break the library, you&rsquo;ll
+get your code reviewed and you&rsquo;ll be able to update the library in the future. Cool, right? :)</p>
+
+		</div></div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+</body>
+</html>

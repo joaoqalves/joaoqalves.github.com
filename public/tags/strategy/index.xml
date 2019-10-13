@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>strategy on Continuous Hipsterism</title>
+    <link>https://blog.joaoqalves.net/tags/strategy/</link>
+    <description>Recent content in strategy on Continuous Hipsterism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Feb 2016 20:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.joaoqalves.net/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The casino paradox</title>
+      <link>https://blog.joaoqalves.net/post/2016/02/23/The-casino-paradox/</link>
+      <pubDate>Tue, 23 Feb 2016 20:00:00 +0000</pubDate>
+      
+      <guid>https://blog.joaoqalves.net/post/2016/02/23/The-casino-paradox/</guid>
+      <description>It&amp;rsquo;s 2:37am and you already lost 3000$ in the casino. &amp;ldquo;Just put 1000$ more in this blackjack round&amp;rdquo; - said no one, ever. This is the same feeling I have many times in software engineering projects. I mean, yeah, I get it, 2 years ago you needed to spent the minimum amount of time possible to get the work done. That&amp;rsquo;s fine. You delivered, you got customers, everything went well.</description>
+    </item>
+    
+  </channel>
+</rss>

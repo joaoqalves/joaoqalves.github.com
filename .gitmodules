@@ -1,7 +1,3 @@
 [submodule "themes/ezhil"]
 	path = themes/ezhil
 	url = https://github.com/vividvilla/ezhil.git
-[submodule "public"]
-	path = public
-	url = git@github.com:joaoqalves/joaoqalves.github.com.git
-	branch = master

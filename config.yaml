@@ -1,0 +1,35 @@
+baseURL: https://blog.joaoqalves.net
+disablePathToLower: true
+languageCode: en-us
+title: Continuous Hipsterism
+theme: ezhil
+params:
+  subtitle: Software Engineering, Leadership, Management and more
+  disableDisqusTypes: ["page", "post"]
+  featherIconsCDN: true
+  social:
+    - name: "Twitter"
+      icon: "twitter"
+      url: "https://twitter.com/joaoqalves"
+    - name: "Github"
+      icon: "github"
+      url: "https://github.com/joaoqalves"
+    - name: "LinkedIn"
+      icon: "linkedin"
+      url: "https://linkedin.com/in/joaoqalves"
+  mainSections:
+    - "post"
+menu:
+  main:
+    - name: "home"
+      url: "/"
+      weight: 1
+    - name: "about"
+      url: "/about"
+      weight: 2
+Permalinks:
+  post: "/:sections/:year/:month/:day/:title"
+
+taxonomies:
+  category: categories
+  tag: tags

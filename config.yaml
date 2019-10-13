@@ -1,4 +1,5 @@
-baseURL: https://blog.joaoqalves.net
+baseURL: https://joaoqalves.github.io
+publishDir: public
 disablePathToLower: true
 languageCode: en-us
 title: Continuous Hipsterism

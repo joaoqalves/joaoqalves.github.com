@@ -1,4 +1,4 @@
-baseURL: "https://blog.joaoqalves.net"
+baseURL: "/"
 publishDir: public
 disablePathToLower: true
 languageCode: en-us

@@ -40,7 +40,7 @@ These requirements are understandable and they don't look so off when you think 
 Yet, I would not link these requirements to a CTO role. A CTO, in my view, is at least one or two fly-height levels above. Their main responsibilities should include:
 
 * leading the **vision** and **strategy** of the company's technology;
-* partnering closely with business leaders across functions to identify and prioritize the company’s goals a.k.a. "to have a set at the C-table";
+* partnering closely with business leaders across functions to identify and prioritize the company’s goals a.k.a. "to have a seat at the C-table";
 * to flag and make other departments (Product, Marketing, Finance...) aware of the next risks, strengths and opportunities of their technology stack;
 * maintaining strong relationships with different stakeholders, customers, partners and vendors;
 * hiring and growing strong leaders that can grow, coach and mentor existing team members; 

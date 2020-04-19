@@ -1,7 +1,6 @@
 ---
 title: "Que vivan los marketplaces de nicho!"
 date: 2020-04-19T12:22:41+02:00
-draft: true
 categories:
 - business
 tags:

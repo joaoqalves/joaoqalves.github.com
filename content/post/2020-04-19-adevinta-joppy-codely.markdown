@@ -77,7 +77,7 @@ Un poco sí, la verdad 😂 Es evidente que jugar al _Monopoly_ con el dinero y 
 
 ---
 
-**_Disclaimer_**: No tengo ningún tipo de associación con [Adevinta][adevinta], [Joppy][joppy] o [CodelyTV][codelytv]. No tengo participaciones de la primera, ni ningún tipo de interés particular en las segundas.
+**_Disclaimer_**: No tengo ningún tipo de asociación con [Adevinta][adevinta], [Joppy][joppy] o [CodelyTV][codelytv]. No tengo participaciones de la primera, ni ningún tipo de interés particular en las segundas.
 
 [adevinta]: https://www.adevinta.com/
 [amazon]: https://www.amazon.com/

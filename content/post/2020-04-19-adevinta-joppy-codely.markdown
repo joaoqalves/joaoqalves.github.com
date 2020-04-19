@@ -62,7 +62,7 @@ Sería posible escalar este negocio y hacerlo menos dependiente del _showtime_ d
 
 ## Qué oportunidades habría para Adevinta?
 
-Una vez más, conseguir llegar a un público, los desarrolladores, que hoy en día parece alejado de sus plataformas. Por otro lado, en una estrategia concertada con [Joppy][joppy] se podría enlazar a personas que buscan mejorar sus competencias y empresas tecnológicas que quieran talento. Esto es algo que Javi y Rafa ya están haciendo a través de un programa de [_mentoring_][codelytv-mentoring]. Esto permitiría captar un trozo más de la cadena de valor: conseguir potenciales candidatos vía [CodelyTV][codelytv], hacerles _mentoring_ y que estos acaben el _funnel_ con una oferta en [Joppy][joppy]. Tal vez seja _wishful thinking_, pero ¿no sería brutal?
+Una vez más, conseguir llegar a un público, los desarrolladores, que hoy en día parece alejado de sus plataformas. Por otro lado, en una estrategia concertada con [Joppy][joppy] se podría enlazar a personas que buscan mejorar sus competencias y empresas tecnológicas que quieran talento. Esto es algo que Javi y Rafa ya están haciendo a través de un programa de "[mentoring][codelytv-mentoring]". Esto permitiría captar un trozo más de la cadena de valor: conseguir potenciales candidatos vía [CodelyTV][codelytv], hacerles _mentoring_ y que estos acaben el _funnel_ con una oferta en [Joppy][joppy]. Tal vez seja _wishful thinking_, pero ¿no sería brutal?
 
 Una vez más, también habría la posibilidad de expansión. Una red, segmentada por nichos, de cursos y plataforma _e-learning_. Sí, sé que [Adevinta][adevinta] cuenta con [InfoJobs Academy][infojobs-academy] en España, pero creo que esta aproximación de ir a por una "red de nichos", con _influencers_ cercanos, tendría más éxito. 
 
@@ -72,7 +72,7 @@ Otra oportunidad sería la de intentar que las universidades/escuelas españolas
 
 # Estás _chalao_, tío!
 
-Un poco sí, la verdad 😂! Es evidente que jugar al _Monopoly_ con el dinero y las empresas de los demás y escribir sobre ello es mucho más fácil que llevar a cabo las ideas que pongo en este _post_. Por otro lado, creo que tanto Joppy como CodelyTV sí que podrían aportar un poco de [_molonidad_][bonillaware-molonidad] a los _marketplace_ de [Adevinta][adevinta] a la vez que ayudarían a captar un trozo más grande de la cadena de valor de la formación y contratación de profesionales. Ahora que he lanzado mi _post_ provocativo, qué os parecería algo así? Se perdería la sensación de cercanía de estas dos _start-up_? No sé, pero molaría saberlo!
+Un poco sí, la verdad 😂! Es evidente que jugar al _Monopoly_ con el dinero y las empresas de los demás y escribir sobre ello es mucho más fácil que llevar a cabo las ideas que pongo en este _post_. Por otro lado, creo que tanto Joppy como CodelyTV sí que podrían aportar un poco de "[molonidad][bonillaware-molonidad]" a los _marketplace_ de [Adevinta][adevinta] a la vez que ayudarían a captar un trozo más grande de la cadena de valor de la formación y contratación de profesionales. Ahora que he lanzado mi _post_ provocativo, qué os parecería algo así? Se perdería la sensación de cercanía de estas dos _start-up_? No sé, pero molaría saberlo!
 
 ---
 

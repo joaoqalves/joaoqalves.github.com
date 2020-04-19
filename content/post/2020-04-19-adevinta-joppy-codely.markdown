@@ -56,7 +56,7 @@ Esta idea puede que sea más controversa. Al contrario de Joppy, [CodelyTV][code
 
 ## Cuál sería el gran reto?
 
-El gran reto, tal y como en Joppy, sería escalar el negocio e intentar que este dependiera menos de las dos estrellas de la compañía: [Javi Ferrer][javi-twitter] y [Rafa Gómez][rafa-twitter]. No sé si habéis visto alguna charla de estos dos, pero son **altamente recomendables**. No solo por lo buenos que son técnicamente, pero también por _show_ que proporcionan. Transformar una presentación técnica en algo *agradable* es extremadamente complicado y estos dos lo hacen parecer la cosa más sencilla del mundo. No me creéis? Mirad [este trozo][codelytv-ddd-video] de una de sus presentaciones. 
+El gran reto, tal y como en Joppy, sería escalar el negocio e intentar que este dependiera menos de las dos estrellas de la compañía: [Javi Ferrer][javi-twitter] y [Rafa Gómez][rafa-twitter]. No sé si habéis visto alguna charla de estos dos, pero son **altamente recomendables**. No solo por lo buenos que son técnicamente, pero también por el _show_ que proporcionan. Transformar una presentación técnica en algo *agradable* es extremadamente complicado y estos dos lo hacen parecer la cosa más sencilla del mundo. No me creéis? Mirad [este trozo][codelytv-ddd-video] de una de sus presentaciones. 
 
 Sería posible escalar este negocio y hacerlo menos dependiente del _showtime_ de Javi y Rafa? Si sí, sería necesario encontrar a más gente con estos reducidísimos _skills_? Es posible mantener un precio atractivo para los desarrolladores y, a la vez, crear más y más contenido de calidad y que llegue el tan deseado [efecto de red][network-effects]? 
 

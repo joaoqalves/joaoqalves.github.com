@@ -39,7 +39,7 @@ Después, los [reports][joppy-reports] publicados por Joppy destacan por su aten
 
 ## ¿Cuál sería el gran reto?
 
-El reto principal es escalar el negocio. [Joppy][joppy] es una plataforma muy conocida en la área de Barcelona y acaban de expandirse a Madrid. La cercanía que existe con el mundo de los desarrolladores, ¿cómo se podría exportar a Francia, a Alemania o al Reino Unido? ¿Se necesitaría contratar a _influencers_ en cada uno de esos mercados? Sería posible escalar el negocio sin quitarle su alma y que se transforme en un portal de anuncios de trabajo _normal_? ¿Sería posible otro modelo de _pricing_ que no se basara solamente en la contratación del candidato? 
+El reto principal es escalar el negocio. [Joppy][joppy] es una plataforma muy conocida en el área de Barcelona y acaban de expandirse a Madrid. La cercanía que existe con el mundo de los desarrolladores, ¿cómo se podría exportar a Francia, a Alemania o al Reino Unido? ¿Se necesitaría contratar a _influencers_ en cada uno de esos mercados? Sería posible escalar el negocio sin quitarle su alma y que se transforme en un portal de anuncios de trabajo _normal_? ¿Sería posible otro modelo de _pricing_ que no se basara solamente en la contratación del candidato? 
 
 ## ¿Qué oportunidades habría para Adevinta?
 

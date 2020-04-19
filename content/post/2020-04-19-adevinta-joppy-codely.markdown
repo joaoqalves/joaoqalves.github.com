@@ -53,7 +53,7 @@ Tal vez el formato de _job listing_ aún sirva el 80% del mercado. Tal vez sirva
 
 # ¿Por qué CodelyTV?
 
-Esta idea puede que sea más controversa. Al contrario de Joppy, [CodelyTV][codelytv] no parece ser un _marketplace_ que encaje mucho con los demás que tiene [Adevinta][adevinta]. No obstante tenemos, por una banda, la demanda: desarrolladores de _software_ que quieren mejorar sus competencias. Por otro lado tenemos la oferta: expertos reconocidos por la indústria y cuyos conocimientos ayudan a los desarrolladores a conseguirlo. En el medio está [CodelyTV][codelytv] con su plataforma donde existen cursos, cuyo acceso se basa en una suscripción a un [plano PRO][codelytv-pro].
+Esta idea puede que sea más controvertida. Al contrario de Joppy, [CodelyTV][codelytv] no parece ser un _marketplace_ que encaje mucho con los demás que tiene [Adevinta][adevinta]. No obstante tenemos, por una banda, la demanda: desarrolladores de _software_ que quieren mejorar sus competencias. Por otro lado tenemos la oferta: expertos reconocidos por la indústria y cuyos conocimientos ayudan a los desarrolladores a conseguirlo. En el medio está [CodelyTV][codelytv] con su plataforma donde existen cursos, cuyo acceso se basa en una suscripción a un [plano PRO][codelytv-pro].
 
 ## ¿Cuál sería el gran reto?
 

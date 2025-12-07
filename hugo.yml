@@ -3,7 +3,7 @@ publishDir: public
 disablePathToLower: true
 languageCode: en-us
 title: Continuous Hipsterism
-theme: PaperMod
+theme: "PaperMod"
 params:
   subtitle: Software Engineering, Leadership, Management and more
   disableDisqusTypes: ["page", "post"]

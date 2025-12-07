@@ -1,17 +1,17 @@
 ---
 title: "About"
-date:   2019-10-13 00:00:00
+date: 2019-10-13 00:00:00
 type: "page"
 disqus: false
 ---
 
 Hello! I'm João, and I’m an Engineering Manager and Fractional CTO. My primary interest is building and growing SaaS Products and Infrastructure teams. Helpful links:
 
-+ [Twitter/X account: @joaoqalves](https://x.com/joaoqalves)
-+ [Blog](https://world.hey.com/joaoqalves)
-+ 🇪🇸 [Twitter/X account: @joaoqalves](https://x.com/joaoqalves_es)
-+ 🇪🇸 [“Desde mi Terminal”] (blog in Spanish) 
-+ Contact me via email: [me@joaoqalves.net](mailto:me@joaoqalves.net)
+- [Twitter/X account: @joaoqalves](https://x.com/joaoqalves)
+- [Blog](https://world.hey.com/joaoqalves)
+- 🇪🇸 [Twitter/X account: @joaoqalves](https://x.com/joaoqalves_es)
+- 🇪🇸 [“Desde mi Terminal”](https://enespanol.joaoqalves.net) (blog en Español)
+- Contact me via email: [me@joaoqalves.net](mailto:me@joaoqalves.net)
 
 The typical use cases I help with are:
 

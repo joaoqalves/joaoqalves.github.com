@@ -3,21 +3,26 @@ publishDir: public
 disablePathToLower: true
 languageCode: en-us
 title: Continuous Hipsterism
-theme: ezhil
+theme: PaperMod
 params:
   subtitle: Software Engineering, Leadership, Management and more
   disableDisqusTypes: ["page", "post"]
-  featherIconsCDN: true
-  social:
-    - name: "Twitter"
-      icon: "twitter"
-      url: "https://twitter.com/joaoqalves"
-    - name: "Github"
-      icon: "github"
-      url: "https://github.com/joaoqalves"
+  socialIcons:
+    - name: "X"
+      icon: "x"
+      url: "https://x.com/joaoqalves"
+    - name: "🇪🇸 X"
+      icon: "x"
+      url: "https://x.com/joaoqalves_es"
+    - name: "🇪🇸 'Desde mi Terminal' blog"
+      icon: "other"
+      url: "https://enespanol.joaoqalves.net"
     - name: "LinkedIn"
       icon: "linkedin"
       url: "https://linkedin.com/in/joaoqalves"
+    - name: "Github"
+      icon: "github"
+      url: "https://github.com/joaoqalves"
   mainSections:
     - "post"
 menu:

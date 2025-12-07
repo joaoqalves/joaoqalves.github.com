@@ -5,10 +5,20 @@ type: "page"
 disqus: false
 ---
 
-Hi! I'm João, a Software Engineer, Tech Lead and Engineering Manager at <a href="https://free-now.com" target="_blank">FREE NOW</a>*.
+Hello! I'm João, and I’m an Engineering Manager and Fractional CTO. My primary interest is building and growing SaaS Products and Infrastructure teams. Helpful links:
 
-![](https://pbs.twimg.com/profile_images/1158440811467628544/tDLE2aCg_400x400.jpg)
++ [Twitter/X account: @joaoqalves](https://x.com/joaoqalves)
++ [Blog](https://world.hey.com/joaoqalves)
++ 🇪🇸 [Twitter/X account: @joaoqalves](https://x.com/joaoqalves_es)
++ 🇪🇸 [“Desde mi Terminal”] (blog in Spanish) 
++ Contact me via email: [me@joaoqalves.net](mailto:me@joaoqalves.net)
 
-I'm mainly interested in reactive distributed systems, cloud technologies, and software craftsmanship. I believe that in order to transform a business to be 10x bigger, we need to enable and empower companies' biggest asset: people.
+The typical use cases I help with are:
 
-**\*** Opinions are my own. But I think that they should be yours too :)
+- Fractional CTO or Interim Tech Lead for startups
+- Assemble talented tech teams
+- Help larger companies plan and deliver Technology, Operating Models, and Innovation roadmaps
+- Help companies with M&A due diligence with a focus on tech teams and infrastructure engineering
+- Solve crisis scenarios, with tech/product teams falling apart or sudden departure of leadership.
+
+If you want to know more, drop me an email at [me@joaoqalves.net](mailto:me@joaoqalves.net).

@@ -1,0 +1,166 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">
+      {{ .Title }}
+    </h1>
+  </header>
+
+  <div class="book-page-container">
+    <div class="book-intro">
+      <h2>Coming Soon</h2>
+      <p>A comprehensive guide to help tech leads and engineering managers build better teams and deliver faster.</p>
+    </div>
+
+    <div class="book-covers">
+      <a href="{{ .Params.subscribeurl | default "https://forms.example.com/subscribe" }}"><div class="book-cover-item">
+        <div class="book-cover-wrapper">
+          <img src="/images/tech-lead-en.1.jpeg" alt="The Tech Lead handbook: Tools and principles to help teams move faster" class="book-cover-image" />
+        </div>
+        <h3>The Tech Lead Handbook</h3>
+        <p class="book-subtitle">Tools and principles to help teams move faster</p>
+      </div></a>
+
+      <a href="{{ .Params.subscribeurl | default "https://forms.example.com/subscribe" }}"><div class="book-cover-item">
+        <div class="book-cover-wrapper">
+            <img src="/images/tech-lead-es.1.jpeg" alt="El manual del Tech Lead: Herramientas y principios para que los equipos avancen más rápido" class="book-cover-image" />
+          </div>
+          <h3>El manual del Tech Lead</h3>
+          <p class="book-subtitle">Herramientas y principios para que los equipos avancen más rápido</p>
+        </div>
+      </div>
+    </a>
+
+    <div class="book-cta">
+      <a href="{{ .Params.subscribeurl | default "https://forms.example.com/subscribe" }}" class="subscribe-button" target="_blank" rel="noopener noreferrer">
+        Subscribe for Updates
+      </a>
+    </div>
+  </div>
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  {{- end }}
+
+</article>
+
+<style>
+.book-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.book-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.book-intro h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--theme);
+}
+
+.book-intro p {
+  font-size: 1.1rem;
+  color: var(--secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.book-covers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: start;
+}
+
+.book-cover-item {
+  text-align: center;
+}
+
+.book-cover-wrapper {
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--theme);
+  padding: 1rem;
+}
+
+.book-cover-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-cover-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.book-cover-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.book-subtitle {
+  font-size: 1rem;
+  color: var(--secondary);
+  font-style: italic;
+  margin: 0;
+}
+
+.book-cta {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.subscribe-button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: var(--theme);
+  color: var(--secondary);
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-button:hover {
+  background-color: var(--hl);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .book-covers {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  
+  .book-intro h2 {
+    font-size: 1.75rem;
+  }
+  
+  .subscribe-button {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
+}
+</style>
+
+{{- end }}{{/* end main */}}
+

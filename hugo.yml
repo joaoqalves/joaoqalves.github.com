@@ -33,6 +33,9 @@ menu:
     - name: "about"
       url: "/about"
       weight: 2
+    - name: "book"
+      url: "/book"
+      weight: 3
 Permalinks:
   post: "/:sections/:year/:month/:day/:title"
 

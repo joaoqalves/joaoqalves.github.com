@@ -1,0 +1,8 @@
+{{- if .Params.canonicalURL -}}
+<div class="canonical-warning" style="background-color: var(--code-bg); border: 1px solid var(--border); border-left: 4px solid var(--secondary); padding: 1rem 1.25rem; margin: 1.5rem 0; border-radius: var(--radius);">
+  <p style="margin: 0; color: var(--content); line-height: 1.6; font-size: 0.9rem;">
+    <strong style="color: var(--primary);">ℹ️ Note:</strong> This post was originally published on my
+    <a href="{{ .Params.canonicalURL }}" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: underline;">HEY World</a> blog.
+  </p>
+</div>
+{{- end -}}

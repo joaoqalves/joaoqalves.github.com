@@ -2,7 +2,7 @@ baseURL: "/"
 publishDir: public
 disablePathToLower: true
 languageCode: en-us
-title: Continuous Hipsterism
+title: Notes from João
 theme: "PaperMod"
 params:
   subtitle: Software Engineering, Leadership, Management and more

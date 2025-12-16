@@ -12,6 +12,7 @@ from datetime import datetime
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlparse
+from urllib.request import urlopen, Request
 
 # Namespace for Atom feeds
 ATOM_NS = {'atom': 'http://www.w3.org/2005/Atom'}
@@ -161,11 +162,28 @@ def extract_entry_id(entry_id):
     return entry_id.split('/')[-1] if '/' in entry_id else entry_id
 
 
-def parse_atom_feed(feed_path):
-    """Parse the Atom feed and return list of entries."""
-    tree = ET.parse(feed_path)
-    root = tree.getroot()
+def fetch_atom_feed(url):
+    """Download Atom feed from URL and return root element and next page URL."""
+    print(f"Downloading: {url}")
+    # Add User-Agent header to avoid being blocked
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; AtomFeedImporter/1.0)'})
+    with urlopen(req) as response:
+        content = response.read()
+        root = ET.fromstring(content)
     
+    # Find next page link
+    atom_ns = 'http://www.w3.org/2005/Atom'
+    next_url = None
+    for link in root.findall(f'{{{atom_ns}}}link'):
+        if link.get('rel') == 'next':
+            next_url = link.get('href')
+            break
+    
+    return root, next_url
+
+
+def parse_atom_feed(root):
+    """Parse the Atom feed root element and return list of entries."""
     # Atom namespace
     atom_ns = 'http://www.w3.org/2005/Atom'
     
@@ -276,25 +294,39 @@ def create_post_file(posts_dir, entry):
 def main():
     """Main function to import posts from Atom feed."""
     script_dir = Path(__file__).parent
-    feed_path = script_dir / 'hey_feed.atom'
+    feed_url = 'https://world.hey.com/joaoqalves/feed.atom'
     posts_dir = script_dir / 'content' / 'post'
-    
-    if not feed_path.exists():
-        print(f"Error: Feed file not found: {feed_path}")
-        return 1
     
     if not posts_dir.exists():
         posts_dir.mkdir(parents=True, exist_ok=True)
         print(f"Created posts directory: {posts_dir}")
     
-    print(f"Parsing Atom feed: {feed_path}")
-    entries = parse_atom_feed(feed_path)
-    print(f"Found {len(entries)} entries in feed\n")
+    all_entries = []
+    current_url = feed_url
+    page = 1
+    
+    # Fetch all pages of the feed
+    while current_url:
+        print(f"\nFetching page {page}...")
+        root, next_url = fetch_atom_feed(current_url)
+        entries = parse_atom_feed(root)
+        all_entries.extend(entries)
+        print(f"Found {len(entries)} entries on page {page}")
+        
+        current_url = next_url
+        page += 1
+        
+        # Safety limit to avoid infinite loops
+        if page > 100:
+            print("Warning: Reached page limit (100), stopping pagination")
+            break
+    
+    print(f"\nTotal entries found: {len(all_entries)}\n")
     
     created = 0
     skipped = 0
     
-    for entry in entries:
+    for entry in all_entries:
         if create_post_file(posts_dir, entry):
             created += 1
         else:
